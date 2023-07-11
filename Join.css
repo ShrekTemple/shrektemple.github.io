@@ -1,0 +1,59 @@
+ .u-section-1 {
+  background-image: url("images/pexels-jakub-novacek-924824.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 480px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 44px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 44px auto 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.875rem;
+  width: 595px;
+  margin: 44px auto 60px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 396px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 303px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 227px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 143px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 340px;
+  }
+}
